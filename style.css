@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(46, 12, 139)
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 5, 31);
+    line-height: 1;
+
+}
+div {
+    font-size: 1.5rem;
+    font-style: italic; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:  navy
+}
