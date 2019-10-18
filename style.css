@@ -1,19 +1,59 @@
-h1 {
-    color: rgb(46, 12, 139)
-}
-
-p {
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(12, 5, 31);
-    line-height: 1;
-
-}
-div {
-    font-size: 1.5rem;
-    font-style: italic; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:  navy
-}
+              
+        body {
+            
+            background: lightyellow url("watercolour-4116932.png") no-repeat right top;
+            background-size: 25%;
+            margin-left: 20px;
+        }
+              
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: black;
+            font-style: normal;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .ahoj {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: navy;
+            margin-right: 300px;
+        }
+        
+        .facebook {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(121, 100, 237);
+            margin-right: 300px;
+        }
+        
+        .kontakt {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: navy;
+            margin-right: 300px;
+        }
+        /* unvisited link */
+        
+        a:link {
+            color: rgb(29, 4, 24);
+        }
+        /* visited link */
+        
+        a:visited {
+            color: rgb(56, 95, 179);
+        }
+        /* mouse over link */
+        
+        a:hover {
+            color: hotpink;
+        }
+        /* selected link */
+        
+        a:active {
+            color: burlywood;
+        }
