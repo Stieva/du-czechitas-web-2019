@@ -1,0 +1,142 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+ https://fonts.google.com/specimen/Roboto
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.obal {
+    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- zde začni psát vlastní CSS ----- */
+.header-hlavni {
+    display:flex;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    
+}
+.header-brand {
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #25133d;
+
+}
+.hlavni-navigace ul{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display:flex;
+    list-style: none;
+    align-items: center;
+    padding: 1rem;
+    color:#48418e;
+}
+.hlavni-navigace li{
+    padding: 1rem;
+    }
+.hlavni-navigace a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+.obsah{
+    background-image:url("images/pozadi.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: inherit;
+}
+.obsah h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    padding: 20px;
+}
+.obsah p{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    padding: 15px 32px; ;
+    text-align:center ;
+}
+.download {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 6px;
+    background-color: #48418e;
+    color: white;
+    font-size:1.5rem;
+    padding: 1.5rem;
+    
+
+}
+.download:hover{
+    background-color:#25133d;
+}
+.more {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 6px;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+   
+}
+.more:hover{
+    background-color:#25133d;
+  
+}
+.buttons > div{
+    position: 
+}
+.container ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+li{
+    color:#48418e;
+}
+    
+
+
+
+.footer-copy {
+    display:flex;
+    flex-direction: row;
+    background-color: #48418e;
+    color:white;
+    justify-content: center;
+}
